@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#565F6B</color>
+    <color name="primary_color">#3F51B5</color> <!-- Indigo 500 -->
+    <color name="primary_dark_color">#303F9F</color> <!-- Indigo 700 -->
+    <color name="accent_color">#FF4081</color> <!-- Pink A200 -->
+
+    <!-- Background Colors -->
+    <color name="background_color">#F5F5F5</color> <!-- Light Gray -->
+    <color name="input_background_color">#FFFFFF</color> <!-- White -->
+    <color name="button_background_color">#3F51B5</color> <!-- Indigo 500 -->
+
+    <!-- Text Colors -->
+    <color name="primary_text_color">#212121</color> <!-- Almost Black -->
+    <color name="secondary_text_color">#757575</color> <!-- Dark Gray -->
+    <color name="hint_text_color">#9E9E9E</color> <!-- Light Gray -->
+
+    <!-- Border and Divider Colors -->
+    <color name="border_color">#BDBDBD</color> <!-- Gray 400 -->
+    <color name="divider_color">#E0E0E0</color> <!-- Gray 300 -->
+
+    <!-- Button Text Colors -->
+    <color name="button_text_color">#FFFFFF</color> <!-- White -->
+    <color name="button_color">#2196F3</color>
+
+    <!-- Link Text Colors -->
+    <color name="link_text_color">#80C4E9</color> <!-- Soft Blue -->
+
+    <!-- Progress Bar -->
+    <color name="progress_bar_color">#FF4081</color> <!-- Pink A200 -->
+</resources>

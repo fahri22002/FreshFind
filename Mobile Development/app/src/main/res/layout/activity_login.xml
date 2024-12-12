@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color"
+    tools:context=".ui.login.LoginActivity">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Login"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text_color"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/tv_role"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Daftar sebagai"
+        android:textSize="16sp"
+        android:textColor="@color/secondary_text_color" />
+
+    <Spinner
+        android:id="@+id/spinner_role"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background" />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Telepon"
+        android:textSize="16sp"
+        android:textColor="@color/secondary_text_color" />
+
+    <EditText
+        android:id="@+id/edt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Masukkan nomor telepon"
+        android:padding="12dp"
+        android:textColor="@color/primary_text_color"
+        android:textColorHint="@color/hint_text_color" />
+
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Password"
+        android:textSize="16sp"
+        android:textColor="@color/secondary_text_color" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Masukkan password"
+        android:padding="12dp"
+        android:textColor="@color/primary_text_color"
+        android:textColorHint="@color/hint_text_color"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/button_color"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        android:text="Login"
+        android:textColor="@color/button_text_color"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/pindah_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Belum punya akun? Klik di sini"
+        android:textAlignment="center"
+        android:textColor="@color/link_text_color"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</LinearLayout>
